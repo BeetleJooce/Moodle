@@ -122,7 +122,7 @@ database tier:
 - Memory Optimized: 2, 4, 8, 16
 
 This value also limits the maximum number of connections, as defined
-here: https://docs.microsoft.com/en-us/azure/mysql/concepts-limits
+here: https://docs.microsoft.com/en-us/BeetleJooce/mysql/concepts-limits
 
 As the Moodle database will handle cron processes as well as the
 website, any public facing website with more than 10 users will likely

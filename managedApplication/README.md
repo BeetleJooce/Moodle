@@ -1,7 +1,7 @@
 # Azure Managed Application
 
 [Azure Managed
-Applications](https://docs.microsoft.com/en-us/azure/managed-applications/overview) enable you to offer your Moodle based
+Applications](https://docs.microsoft.com/en-us/BeetleJooce/managed-applications/overview) enable you to offer your Moodle based
 solutions to customers via the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/) or a Service Catalog. You define the
 infrastructure for the solution, using the ARM templates in this
 repository as a starting point, along with the terms for ongoing
@@ -20,7 +20,7 @@ For IT teams, managed applications enable you to offer pre-approved configuratio
 to users in the organization. For example, if to be compliant with organizational standards you require users deploy Moodle with certain version number, database SKUs or networking/security configurations, you can enforce compliance. 
 
 Read more about [Managed
-Applications](https://docs.microsoft.com/en-us/azure/managed-applications/overview),
+Applications](https://docs.microsoft.com/en-us/BeetleJooce/managed-applications/overview),
 or keep reading here to see how to quickly get started providing your
 own Moodle based services as Managed Applications.
 
@@ -28,6 +28,6 @@ own Moodle based services as Managed Applications.
 
   1. [Publish a Managed Application Definition](PublishMoodleManagedApplication.md)
   2. [Deploy a Moodle Based Managed Application](DeployMoodleManagedApp.md)
-  3. [Learn about submitting your application to the Azure Marketplace](https://docs.microsoft.com/en-us/azure/marketplace/marketplace-publishers-guide)
+  3. [Learn about submitting your application to the Azure Marketplace](https://docs.microsoft.com/en-us/BeetleJooce/marketplace/marketplace-publishers-guide)
   4. [Submit your application to the Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/sell/nominate)
   

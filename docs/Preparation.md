@@ -19,7 +19,7 @@ sudo apt-get install wget -y
 sudo apt-get openssh-client -y
 ```
 
-The [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest) is also important:
+The [Azure CLI](https://docs.microsoft.com/en-us/cli/BeetleJooce/install-azure-cli-apt?view=azure-cli-latest) is also important:
 
 ```bash
 AZ_REPO=$(lsb_release -cs)

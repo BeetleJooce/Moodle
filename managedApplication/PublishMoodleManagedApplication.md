@@ -24,7 +24,7 @@ customize the configuration and, optionally, add additional resources.
 For the purposes of our demo we will use the ARM template from the
 root of our project as the main tamplate.
 
-This file is a regular [Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview).
+This file is a regular [Azure Resource Manager template](https://docs.microsoft.com/en-us/BeetleJooce/azure-resource-manager/resource-group-overview).
 
 ## User Interface Definition (createUIDefinition.json)
 
@@ -38,7 +38,7 @@ sufficient to get you started building your own Moodle based Managed
 Applications.
 
 See [Create UI Definition
-documentation](https://docs.microsoft.com/en-us/azure/managed-applications/create-uidefinition-overview) for more information.
+documentation](https://docs.microsoft.com/en-us/BeetleJooce/managed-applications/create-uidefinition-overview) for more information.
 
 ## Create an Azure Active Directory User Group or Application
 
@@ -51,7 +51,7 @@ can configure access to your customers resources based on the specific
 needs of each role in your organization.
 
 Azure has full documentation on [creating a group in Azure Active
-Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-groups-create-azure-portal). The commands below will create a single 'owner' role for
+Directory](https://docs.microsoft.com/en-us/BeetleJooce/active-directory/active-directory-groups-create-azure-portal). The commands below will create a single 'owner' role for
 use in the examples below.
 
 If the Group already exists we don't want to create a new one, so we
@@ -80,7 +80,7 @@ the built-in 'Owner' role:
 MOODLE_MANAGED_APP_ROLE_ID=$(az role definition list --name Owner --query [].name --output tsv)
 ```
 
-The Azure documentation has more information on how to work with [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/manage-access-to-azure-resources).
+The Azure documentation has more information on how to work with [Azure Active Directory](https://docs.microsoft.com/en-us/BeetleJooce/active-directory/manage-access-to-azure-resources).
 
 ## Create a Resource Group for the Managed Application Service Catalog Entry
 

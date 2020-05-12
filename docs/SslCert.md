@@ -10,7 +10,7 @@ If you'd like to configure the Moodle cluster (to be deployed) with your own dom
 and your valid SSL server certificate/private key, then you can do so by utilizing
 [Azure Key Vault](https://azure.microsoft.com/en-us/services/key-vault/) and
 configuring the related template parameters as described below. This support is
-based on [another similar work](https://github.com/Azure/azure-quickstart-templates/tree/master/201-vmss-ubuntu-web-ssl)
+based on [another similar work](https://github.com/BeetleJooce/azure-quickstart-templates/tree/master/201-vmss-ubuntu-web-ssl)
 and adapted to our situation.
 
 ## Initial deployment
@@ -21,7 +21,7 @@ Azure Resource Manager can reference when it deploys VMs as specified in templat
 
 You can create your own Azure Key Vault and store your purchased SSL certificate (called
 'import' in Azure Key Vault terminology) by following related documentation like
-[this](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2).
+[this](https://docs.microsoft.com/en-us/BeetleJooce/key-vault/key-vault-manage-with-cli2).
 However, the related files must be stored in a specific format, so we created a
 shell script (`keyvault.sh`) that will perform all necessary steps for this purpose.
 To use this script, you'll first need to upload your SSL certificate/private key files

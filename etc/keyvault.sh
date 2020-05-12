@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Based on https://github.com/Azure/azure-quickstart-templates/blob/master/201-vmss-ubuntu-web-ssl/keyvault.sh
+# Based on https://github.com/BeetleJooce/azure-quickstart-templates/blob/master/201-vmss-ubuntu-web-ssl/keyvault.sh
 
 #set -e
 
