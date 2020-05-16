@@ -173,7 +173,7 @@ set -ex
 
     # install the entire stack
     sudo apt-get -y  --force-yes install nginx php-fpm varnish >> /tmp/apt5a.log
-    sudo apt-get -y  --force-yes install php php-cli php-curl php-zip >> /tmp/apt5b.log
+    sudo apt-get -y  --force-yes install php php-cli php-curl php-zip php-ldap >> /tmp/apt5b.log
 
     # Moodle requirements
     sudo apt-get -y update > /dev/null

@@ -66,7 +66,7 @@ check_fileServerType_param $fileServerType
   fi
 
   # install the base stack
-  sudo apt-get -y install varnish php php-cli php-curl php-zip php-pear php-mbstring php-dev mcrypt
+  sudo apt-get -y install varnish php php-cli php-curl php-zip php-pear php-mbstring php-dev php-ldap mcrypt
 
   if [ "$webServerType" = "nginx" -o "$httpsTermination" = "VMSS" ]; then
     sudo apt-get -y install nginx
